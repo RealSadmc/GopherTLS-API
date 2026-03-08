@@ -1,6 +1,5 @@
-[![CapSolver](assets/CapSolver.png)](https://www.capsolver.com/?utm_source=github&utm_medium=repo&utm_campaign=scraping&utm_term=tls-api)
 
-# 🔒 TlsApi
+# 🔒 GopherTLS
 
 A wrapper for [tls-client](https://github.com/bogdanfinn/tls-client) library.
 
@@ -10,8 +9,8 @@ An API that forwards your HTTP requests using a custom TLS fingerprint.
 
 ## 🚀 Installation
 
-1. `git clone https://github.com/brianxor/tls-api.git`
-2. `cd tls-api`
+1. `git clone https://github.com/RealSadmc/GopherTLS-API.git`
+2. `cd GopherTLS-API`
 3. `go run .`
 
 > [!TIP]
