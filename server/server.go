@@ -10,7 +10,7 @@ import (
 
 func StartServer(serverHost string, serverPort string) error {
 	app := fiber.New(fiber.Config{
-		AppName: "TlsApi",
+		AppName: "GopherTLS",
 	})
 
 	tlsGroup := app.Group("/go")
@@ -18,7 +18,7 @@ func StartServer(serverHost string, serverPort string) error {
 	tlsGroup.Use(logger.New())
 	tlsGroup.Use(recover.New())
 
-	tlsGroup.Post("/forward", handlers.HandleTlsForwardRoute)
+	tlsGroup.Post("/pher", handlers.HandleTlsForwardRoute)
 
 	serverAddress := fmt.Sprintf("%s:%s", serverHost, serverPort)
 
