@@ -18,7 +18,7 @@ An API that forwards your HTTP requests using a custom TLS fingerprint.
 
 ## 📚 Documentation
 
-### Endpoint: `/tls/forward`
+### Endpoint: `/go/forward`
 
 ### Method: `POST`
 
@@ -29,10 +29,10 @@ An API that forwards your HTTP requests using a custom TLS fingerprint.
 | `x-tls-url`                         | 🌐 Request URL.                                                                                                                                                        | No       | `N/A`   |
 | `x-tls-method`                      | 📮 Request method.                                                                                                                                                     | No       | `N/A`   |
 | `x-tls-proxy`                       | 🔄 Proxy. Formats: `ip:port:user:pass`, `ip:port`                                                                                                                      | Yes      | `N/A`   |
-| `x-tls-profile`                     | 👤 TLS client profile. Available profiles: [See here](https://github.com/bogdanfinn/tls-client/blob/18abae60034c6d510a17b62c936efafdf53ebb80/profiles/profiles.go#L10) | No       | `N/A`   |
-| `x-tls-client-timeout`              | ⏱️ HTTP client timeout.                                                                                                                                                | Yes      | `30`    |
+| `x-tls-profile`                     | 👤 TLS client profile. Available profiles: [See here](https://raw.githubusercontent.com/bogdanfinn/tls-client/refs/heads/master/profiles/profiles.go) | No       | `N/A`   |
+| `x-tls-timeout`              | ⏱️ HTTP client timeout.                                                                                                                                                | Yes      | `30`    |
 | `x-tls-follow-redirects`            | 🔀 Follow redirects.                                                                                                                                                   | Yes      | `true`  |
-| `x-tls-force-http1`                 | 🔌 Force HTTP/1.1.                                                                                                                                                     | Yes      | `false` |
+| `x-tls-force-http1`                 | 🔌 Force HTTP/1.1                                                                                                                                                           | Yes      | `false` |
 | `x-tls-insecure-skip-verify`        | 🚫 Skip SSL certificate verification.                                                                                                                                  | Yes      | `false` |
 | `x-tls-with-random-extension-order` | 🎲 Randomize extensions order.                                                                                                                                         | Yes      | `true`  |
 | `x-tls-header-order`                | 📋 Header order. Format: String with headers key separated by commas (`,`)                                                                                             | Yes      | `N/A`   |
@@ -43,11 +43,13 @@ An API that forwards your HTTP requests using a custom TLS fingerprint.
 
 ## 🐛 Report Issues
 
-Found a bug? Please [open an issue](https://github.com/brianxor/tls-api/issues).
+Found a bug? Please [Report The issue](https://github.com/RealSadmc/GopherTLS-API/issues).
 
 
 By reporting an issue you help improve the project.
 
 ## 🙏 Credits
+
+This is A Modified Fork Of [brianxor](https://github.com/brianxor/tls-api) Shoutout to you my man
 
 Special thanks to [bogdanfinn](https://github.com/bogdanfinn/) for creating the awesome [tls-client](https://github.com/bogdanfinn/tls-client)

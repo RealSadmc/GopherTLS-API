@@ -36,7 +36,7 @@ const (
 	tlsMethodHeaderKey                   = "x-tls-method"
 	tlsProxyHeaderKey                    = "x-tls-proxy"
 	tlsProfileHeaderKey                  = "x-tls-profile"
-	tlsClientTimeoutHeaderKey            = "x-tls-client-timeout"
+	tlsClientTimeoutHeaderKey            = "x-tls-timeout"
 	tlsFollowRedirectsHeaderKey          = "x-tls-follow-redirects"
 	tlsForceHttp1HeaderKey               = "x-tls-force-http1"
 	tlsInsecureSkipVerifyHeaderKey       = "x-tls-insecure-skip-verify"
