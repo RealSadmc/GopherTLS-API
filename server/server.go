@@ -13,7 +13,7 @@ func StartServer(serverHost string, serverPort string) error {
 		AppName: "TlsApi",
 	})
 
-	tlsGroup := app.Group("/tls")
+	tlsGroup := app.Group("/go")
 
 	tlsGroup.Use(logger.New())
 	tlsGroup.Use(recover.New())
