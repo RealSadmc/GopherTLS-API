@@ -18,7 +18,7 @@ An API that forwards your HTTP requests using a custom TLS fingerprint.
 
 ## 📚 Documentation
 
-### Endpoint: `/go/forward`
+### Endpoint: `/go/pher`
 
 ### Method: `POST`
 
