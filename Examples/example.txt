@@ -1,5 +1,6 @@
 Host: http://localhost:42690/go/pher
 
+Headers:
 x-tls-url: https://cf.erisa.uk/
 x-tls-profile: firefox_147
 x-tls-method: GET
