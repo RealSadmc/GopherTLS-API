@@ -6,7 +6,7 @@ import (
 	http "github.com/bogdanfinn/fhttp"
 	tlsclient "github.com/bogdanfinn/tls-client"
 	"github.com/bogdanfinn/tls-client/profiles"
-	"github.com/brianxor/tls-api/internal/utils"
+	"github.com/RealSadmc/GopherTLS-API/internal/utils"
 	"github.com/gofiber/fiber/v3"
 	"io"
 	"net/url"

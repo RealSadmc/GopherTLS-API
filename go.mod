@@ -1,4 +1,4 @@
-module github.com/brianxor/tls-api
+module github.com/RealSadmc/GopherTLS-API
 
 go 1.25.0
 

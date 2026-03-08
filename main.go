@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/brianxor/tls-api/server"
+	"github.com/RealSadmc/GopherTLS-API/server"
 	"github.com/joho/godotenv"
 	"golang.org/x/sys/windows"
 	"log"
