@@ -38,10 +38,10 @@ const (
 	tlsProfileHeaderKey                  = "x-tls-profile"
 	tlsClientTimeoutHeaderKey            = "x-tls-timeout"
 	tlsFollowRedirectsHeaderKey          = "x-tls-follow-redirects"
-	tlsForceHttp1HeaderKey               = "x-tls-force-http1"
+	tlsForceHttp1HeaderKey               = "x-tls-force-h1"
 	tlsInsecureSkipVerifyHeaderKey       = "x-tls-insecure-skip-verify"
 	tlsHeaderOrderHeaderKey              = "x-tls-header-order"
-	tlsPseudoHeaderOrderHeaderKey        = "x-tls-pseudo-header-order"
+	tlsPseudoHeaderOrderHeaderKey        = "x-tls-pseudo-order"
 	tlsWithRandomExtensionOrderHeaderKey = "x-tls-with-random-extension-order"
 )
 

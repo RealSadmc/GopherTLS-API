@@ -32,11 +32,11 @@ An API that forwards your HTTP requests using a custom TLS fingerprint.
 | `x-tls-profile`                     | 👤 TLS client profile. Available profiles: [See here](https://raw.githubusercontent.com/bogdanfinn/tls-client/refs/heads/master/profiles/profiles.go) | No       | `N/A`   |
 | `x-tls-timeout`              | ⏱️ HTTP client timeout.                                                                                                                                                | Yes      | `30`    |
 | `x-tls-follow-redirects`            | 🔀 Follow redirects.                                                                                                                                                   | Yes      | `true`  |
-| `x-tls-force-http1`                 | 🔌 Force HTTP/1.1                                                                                                                                                           | Yes      | `false` |
+| `x-tls-force-h1`                 | 🔌 Force HTTP/1.1                                                                                                                                                           | Yes      | `false` |
 | `x-tls-insecure-skip-verify`        | 🚫 Skip SSL certificate verification.                                                                                                                                  | Yes      | `false` |
 | `x-tls-with-random-extension-order` | 🎲 Randomize extensions order.                                                                                                                                         | Yes      | `true`  |
 | `x-tls-header-order`                | 📋 Header order. Format: String with headers key separated by commas (`,`)                                                                                             | Yes      | `N/A`   |
-| `x-tls-pseudo-header-order`         | 📑 Pseudo header order. Format: String with headers key separated by commas (`,`)                                                                                      | Yes      | `N/A`   |
+| `x-tls-pseudo-order`         | 📑 Pseudo header order. Format: String with headers key separated by commas (`,`)                                                                                      | Yes      | `N/A`   |
 
 > [!NOTE]
 > If the request requires a body, you can simply enter it as the request body, not in the header.
