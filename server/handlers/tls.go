@@ -336,7 +336,7 @@ func (t *tlsData) extractForceHttp1(ctx fiber.Ctx) error {
 	tlsForceHttp1, err := strconv.ParseBool(forceHttp1)
 
 	if err != nil {
-		return fmt.Errorf("invalid force http1: %s", forceHttp1)
+		return fmt.Errorf("invalid force http/1.1: %s", forceHttp1)
 	}
 
 	t.tlsForceHttp1 = tlsForceHttp1
