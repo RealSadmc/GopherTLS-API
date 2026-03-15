@@ -22,6 +22,7 @@ func main() {
 		"x-tls-insecure-skip-verify": 	"false", // optional too
 		"x-tls-header-order":   "Accept,User-Agent,Content-Type",
 		"x-tls-pseudo-order":   ":method,:authority,:path,:scheme", // h2 order
+		"x-tls-with-random-extension-order": "false",
 		"User-Agent":           "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0",
 		"Accept":               "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
 		"Accept-Encoding":      "gzip, deflate, br, zstd",
