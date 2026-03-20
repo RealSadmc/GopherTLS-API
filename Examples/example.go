@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	
 	request, _ := http.NewRequest("POST", "http://localhost:42690/go/pher", nil)
 
 	request.Host = "cf.erisa.uk"
